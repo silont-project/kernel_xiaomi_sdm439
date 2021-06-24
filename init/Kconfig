@@ -1526,6 +1526,9 @@ config LTO
 	default n
 	select THIN_ARCHIVES
 
+config GCC_GRAPHITE
+	bool "Enable GCC Polyhedral Loop Optimization (Graphite)"
+
 config SYSCTL
 	bool
 
