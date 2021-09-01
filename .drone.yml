@@ -10,8 +10,10 @@ steps:
         from_secret: TOKEN
       CHANNEL_ID:
         from_secret: CHATID
+      TELEGRAM_TOKEN:
+        from_secret: TOKEN
     commands: 
-      - "curl https://raw.githubusercontent.com/Chuck439/script/master/kernel/buildnojava | bash"
+      - "curl https://raw.githubusercontent.com/Chuck439/anu/master/build.sh | bash"
     image: azrim89/kernel:latest
     name: Build
     trigger: 
