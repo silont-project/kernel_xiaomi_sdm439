@@ -148,8 +148,6 @@ struct dma_buf {
 
 		unsigned long active;
 	} cb_excl, cb_shared;
-
-	bool from_kmem;
 };
 
 /**
